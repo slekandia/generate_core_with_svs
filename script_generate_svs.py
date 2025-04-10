@@ -8,7 +8,7 @@ separation = 1
 #  The total power of the tensor, i.e. squared sum of each mode-n singular values for each mode
 total_power = 100
 #  Function that generates the singular values that are separted by separation, while keeping the power fixed. The
-#  minimum and the maximum singular value changes accordingly.
+#  minimum and the maximum singular value changes accordingly. Manually check that minimum is not below zero, if so, increase the power.
 sv = equally_separated_sv(rank, separation, total_power)
 print('The requested singular values are ' + str(sv))
 sv_squared = []
