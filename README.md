@@ -6,3 +6,4 @@ In order to run the program you need to install cvxpy and qcqp from https://gith
 
 Then you can run the script.
 
+See https://codeocean.com/capsule/3532125/tree for the Codeocean link.
